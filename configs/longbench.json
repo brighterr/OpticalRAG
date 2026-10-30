@@ -1,0 +1,29 @@
+{
+  "dataset": "LongBench-v2",
+  "count": 503,
+  "topk": 256,
+  "pooling": "max",
+  "preserve_order": 1,
+  "downsample": 1,
+  "prefix_tokens": 16,
+  "font_size": 15,
+  "margin": 20,
+  "line_height": 1.3,
+  "chunk_chars": 24000,
+  "page_size": 640,
+  "page_batch": 4,
+  "checkpoint_sha256": "0a2d65b03785f2e7d77df194799eb237ced7ce7309ed7e47462254ccb44f985c",
+  "data_revision": "2b48e494f2c7a2f0af81aae178e05c7e1dde0fe9",
+  "arrow_sha256": "92b662731a0173b9b0f6d3cd021677604801f5a00cb6c22e20c4c82b39447774",
+  "models": {
+    "Qwen2.5-7B-Instruct": {
+      "model_id": "Qwen/Qwen2.5-7B-Instruct",
+      "revision": "a09a35458c702b33eeacc393d103063234e8bc28"
+    },
+    "DeepSeek-OCR": {
+      "model_id": "deepseek-ai/DeepSeek-OCR",
+      "revision": "9f30c71f441d010e5429c532364a86705536c53a"
+    }
+  },
+  "font_sha256": "cf3584503be005b9790678091386191b83e3cfa77ae93d179dbe8f8ce6264013"
+}

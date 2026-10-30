@@ -1,0 +1,15 @@
+# Install torch and torchvision using the CUDA command in README.md first.
+transformers==4.46.3
+tokenizers==0.20.3
+datasets==3.6.0
+accelerate==1.6.0
+Pillow==11.1.0
+numpy==1.26.4
+faiss-cpu==1.10.0
+einops==0.8.1
+easydict==1.13
+safetensors==0.5.3
+tqdm==4.67.3
+scikit-learn==1.7.2
+huggingface_hub==0.36.2
+tiktoken==0.9.0
